@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="actions.js" defer></script>
+    <title>Likes</title>
+</head>
+<body>
+    <div class="container">
+        <div class="topBar">
+            <h1>Network</h1>
+        </div>
+        <h2>Your Feed</h2>
+        <div class="Profile-Box">
+            <div class="Avatar">
+                <ul>
+                    <li><img src="img/user-circle.png" alt="avatar"></li>
+                    <br>
+                    <li><a href="#"></a>Add an avatar</li>
+                </ul>
+                <h3>James Doe</h3>
+            </div>
+        </div>  
+        <div class="Connections-box">
+            <div class="NeilM-Box">
+                <div class="Info">
+                    <div>Neil M</div>
+                    <div class="Nine-likes"><span id="likeA">9</span> likes(s)</div>
+                    <button onclick="addMore()">Like</button>  
+                </div>
+                <div class="paragraph">
+                    <p>I just set up this new discord bot, let me</p>
+                    <p>know what you all think.<a class="links" href="#">link</a></p>
+                </div> 
+            </div>
+            <div class="Nichole-Box">
+                <div class="Info">
+                    <div>Nichole K</div>
+                    <div class="twelve-likes"><span id="likeB">12</span> like(s)</div>
+                    <button onclick="moreLikes()">Like</button>
+                </div>
+                <div class="paragraph">
+                    <p>Just finished my <a class="links"href="#">next comic,</a> check it out.</p>
+                </div>
+            </div>
+            <div class="Jim-Box">
+                <div class="Info">
+                    <div>Jim R</div>
+                    <div class="Nine-Like"><span>9</span> like(s)</div>
+                    <button onclick="addMore()">Like</button>
+                </div>
+                <div class="paragraph">
+                    <p>I can't stop listening to the <a class="links" href="#">new album.</a></p>
+                    <p>Who else is liking it?</p>
+                </div>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
